@@ -9,36 +9,15 @@
     <version>1</version>
   </parent>
 
-  <groupId>com.itemis.maven.plugins</groupId>
-  <artifactId>artifact-spy-plugin</artifactId>
-  <version>1.0.4-SNAPSHOT</version>
+  <groupId>com.itemis.test</groupId>
+  <artifactId>ssh-release-test</artifactId>
+  <version>1-SNAPSHOT</version>
   <packaging>maven-plugin</packaging>
 
-  <name>Artifact Spy Plugin</name>
-  <description>A small Maven plugin that spies out all the artifacts that are produced by a Maven build.</description>
-  <url>https://github.com/shillner/artifact-spy-plugin</url>
-  <inceptionYear>2016</inceptionYear>
-
-  <developers>
-    <developer>
-      <id>shillner</id>
-      <name>Stanley Hillner</name>
-      <organization>itemis AG</organization>
-      <organizationUrl>https://itemis.com/</organizationUrl>
-      <timezone>1</timezone>
-    </developer>
-  </developers>
-
   <scm>
-    <connection>scm:git:https://github.com/shillner/artifact-spy-plugin.git</connection>
-    <url>https://github.com/shillner/artifact-spy-plugin</url>
+    <connection>scm:git:https://github.com/shillner/ssh-release-test.git</connection>
     <tag>HEAD</tag>
   </scm>
-
-  <issueManagement>
-    <system>GitHub</system>
-    <url>https://github.com/shillner/artifact-spy-plugin/issues</url>
-  </issueManagement>
 
   <properties>
     <version.java>1.6</version.java>
