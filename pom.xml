@@ -9,20 +9,20 @@
 
   <groupId>com.itemis.test</groupId>
   <artifactId>ssh-release-test</artifactId>
-  <version>4-SNAPSHOT</version>
+  <version>4</version>
   <packaging>maven-plugin</packaging>
 
   <scm>
     <connection>scm:git:https://github.com/shillner/ssh-release-test.git</connection>
-    <tag>HEAD</tag>
+    <tag>4</tag>
   </scm>
 
   <properties>
     <version.java>1.6</version.java>
     <version.maven>3.3.9</version.maven>
     <version.maven-plugin-plugin>3.4</version.maven-plugin-plugin>
-    <version.unleash-maven-plugin>2.0.1-SNAPSHOT</version.unleash-maven-plugin>
-    <version.unleash-scm-provider-git>2.0.0</version.unleash-scm-provider-git>
+    <version.unleash-maven-plugin>2.1.0</version.unleash-maven-plugin>
+    <version.unleash-scm-provider-git>2.0.1-SNAPSHOT</version.unleash-scm-provider-git>
   </properties>
 
   <dependencies>
