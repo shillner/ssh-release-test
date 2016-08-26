@@ -9,11 +9,12 @@
 
   <groupId>com.itemis.test</groupId>
   <artifactId>ssh-release-test</artifactId>
-  <version>10-SNAPSHOT</version>
+  <version>10</version>
   <packaging>maven-plugin</packaging>
 
   <scm>
     <connection>scm:git:https://github.com/shillner/ssh-release-test.git</connection>
+<tag>10</tag>
   </scm>
 
   <properties>
