@@ -3,7 +3,7 @@
 
   <groupId>com.itemis.test</groupId>
   <artifactId>ssh-release-test</artifactId>
-  <version>35-SNAPSHOT</version>
+  <version>36-SNAPSHOT</version>
   <packaging>maven-plugin</packaging>
 
   <scm>
