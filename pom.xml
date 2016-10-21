@@ -5,7 +5,7 @@
 
   <groupId>com.itemis.test</groupId>
   <artifactId>ssh-release-test</artifactId>
-  <version>20.0.1-SNAPSHOT</version>
+  <version>21-SNAPSHOT</version>
   <packaging>maven-plugin</packaging>
 
   <scm>
