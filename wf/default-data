@@ -1,0 +1,4 @@
+exec[1] {
+  data = echo test, echo hallo
+  rollbackData = echo rollback
+}

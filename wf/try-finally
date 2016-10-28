@@ -1,0 +1,18 @@
+try {
+  exec[1] {
+    data = echo test, echo hallo
+    rollbackData = echo rollback
+  }
+  exec[2] {
+    data = 1234
+  }
+} finally {
+  exec[3] {
+    data = echo finally 1
+    rollbackData = echo rollback finally 1
+  }
+  exec[4] {
+    data=esafsf
+    rollbackData = echo rollback finally 2
+  }
+}
