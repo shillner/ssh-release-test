@@ -3,12 +3,12 @@
 
   <groupId>com.itemis.test</groupId>
   <artifactId>ssh-release-test</artifactId>
-  <version>37-SNAPSHOT</version>
+  <version>37</version>
   <packaging>maven-plugin</packaging>
 
   <scm>
     <connection>scm:git:https://github.com/shillner/ssh-release-test.git</connection>
-    <tag>HEAD</tag>
+    <tag>37</tag>
   </scm>
 
   <distributionManagement>
