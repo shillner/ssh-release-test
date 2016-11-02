@@ -23,7 +23,7 @@
     <version.maven>3.3.9</version.maven>
     <version.maven-plugin-plugin>3.4</version.maven-plugin-plugin>
     <version.unleash-maven-plugin>2.2.0</version.unleash-maven-plugin>
-    <version.unleash-scm-provider-git>2.0.3</version.unleash-scm-provider-git>
+    <version.unleash-scm-provider-git>2.0.2</version.unleash-scm-provider-git>
   </properties>
 
   <dependencies>
@@ -59,11 +59,6 @@
               <groupId>com.itemis.maven.plugins</groupId>
               <artifactId>unleash-scm-provider-git</artifactId>
               <version>${version.unleash-scm-provider-git}</version>
-            </dependency>
-            <dependency>
-              <groupId>com.itemis.maven.plugins</groupId>
-              <artifactId>cdi-plugin-hooks</artifactId>
-              <version>0.1.1</version>
             </dependency>
           </dependencies>
         </plugin>
