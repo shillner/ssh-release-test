@@ -1,0 +1,12 @@
+storeScmRevision
+prepareVersions
+setReleaseVersions
+addSpyPlugin
+buildReleaseArtifacts
+removeSpyPlugin
+checkForScmChanges
+tagScm
+detectReleaseArtifacts
+setDevVersion
+serializeMetadata
+
