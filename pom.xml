@@ -19,11 +19,14 @@
   </distributionManagement>
 
   <properties>
-    <version.java>1.6</version.java>
-    <version.maven>3.3.9</version.maven>
-    <version.maven-plugin-plugin>3.4</version.maven-plugin-plugin>
+    <version.java>1.8</version.java>
+    <version.maven>3.6.3</version.maven>
+    <version.maven-plugin-plugin>3.6.0</version.maven-plugin-plugin>
     <version.unleash-maven-plugin>2.10.0</version.unleash-maven-plugin>
     <version.unleash-scm-provider-git>2.3.0</version.unleash-scm-provider-git>
+	<moduleA>false</moduleA>
+	<moduleB>false</moduleB>
+	<moduleC>false</moduleC>
   </properties>
 
   <dependencies>
@@ -40,7 +43,7 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.12</version>
+      <version>4.13</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
@@ -71,6 +74,26 @@
       </plugins>
     </pluginManagement>
     <plugins>
+		<plugin>                                                         
+			<groupId>org.codehaus.gmaven</groupId>                       
+			<artifactId>groovy-maven-plugin</artifactId>                 
+			<version>2.1.1</version>                                       
+			<executions>                                                 
+				<execution>                                              
+					<phase>validate</phase>                              
+					<goals>                                              
+						<goal>execute</goal>                             
+					</goals>                                             
+					<configuration>                                      
+						<source>                                         
+							log.info('Module A: {}', ${moduleA})
+							log.info('Module B: {}', ${moduleB})
+							log.info('Module C: {}', ${moduleC})
+						</source>                                        
+					</configuration>                                     
+				</execution>                                             
+			</executions>                                                
+		</plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-plugin-plugin</artifactId>
@@ -127,7 +150,7 @@
           <dependency>
             <groupId>org.apache.maven.surefire</groupId>
             <artifactId>surefire-junit47</artifactId>
-            <version>2.19.1</version>
+            <version>3.0.0-M4</version>
           </dependency>
         </dependencies>
       </plugin>
