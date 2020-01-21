@@ -22,7 +22,7 @@
     <version.java>1.8</version.java>
     <version.maven>3.6.3</version.maven>
     <version.maven-plugin-plugin>3.6.0</version.maven-plugin-plugin>
-    <version.unleash-maven-plugin>2.10.0</version.unleash-maven-plugin>
+    <version.unleash-maven-plugin>2.10.1-SNAPSHOT</version.unleash-maven-plugin>
     <version.unleash-scm-provider-git>2.3.0</version.unleash-scm-provider-git>
 	<moduleA>false</moduleA>
 	<moduleB>false</moduleB>
